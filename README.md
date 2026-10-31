@@ -41,7 +41,7 @@ The complete Lens project and assets are in that attached ZIP. This repository's
 
 ## Development status
 
-Built for SPECS and demonstrated in Lens Studio Preview. Physical glasses, on-device performance and comfort have not been tested. The [verification notes](QA.md), [video provenance](VIDEO_PROVENANCE.json), [workflow receipt](workflow-receipt.md) and [checksums](SHA256SUMS) retain the implementation detail for reviewers. The packaged build is R32.
+Built for SPECS and demonstrated in Lens Studio Preview. Physical glasses, on-device performance and comfort have not been tested. The [verification notes](QA.md), [video provenance](VIDEO_PROVENANCE.json), [workflow receipt](workflow-receipt.md) and [checksums](SHA256SUMS) retain the implementation detail for reviewers.
 
 Previous GENESIS/EcoGenesis assets and AI-assisted leaf colour artwork are disclosed in the source notes. Third-party licences remain applicable; no blanket open-source licence has been assigned to the original work.
 

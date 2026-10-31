@@ -1,0 +1,19 @@
+{
+  "revision": "R32",
+  "duration_seconds": 144,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "sha256": "b09837e6a197f8a666ad43332767e6657b93c8c1122d7f1fbd38b97fabf6fb0d",
+  "source": "R32 native Preview 0\u201368s, unchanged R30 native Preview 68\u2013144s",
+  "chapter_edit": "0.25s ordinary dissolve at 68s; last captured prefix frame held during dissolve",
+  "native_frames_used": 2908,
+  "ai_generated_video_frames": false,
+  "motion_interpolation": false,
+  "capture": "Lens Studio Preview, slowed capture retimed to the native lesson clock; not device footage",
+  "audio": "Original R6 BotanicalCinema, gain .26, no microphone",
+  "full_decode": "passed",
+  "visual_review": "Ten final encoded control frames inspected, plus full A/V decode; not an every-frame visual review."
+}

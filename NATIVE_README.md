@@ -1,41 +1,30 @@
-# One Gene, A Visible Difference
+# One Letter, a Different Leaf
 
-A spatial Arabidopsis investigation for SPECS: follow a visible leaf trait into a cell, examine GL1, and test an explanation on a new leaf.
+A spatial genetics lesson for SPECS. A change in the GL1 DNA sequence leads to a different amino acid, a different regulatory outcome and a difference on the surface of a developing Arabidopsis leaf.
 
-The Lens Studio project keeps its original internal name, **TwoOaks**. The active lesson is about Arabidopsis, not oak identification. Current native revision: **R32**, prepared 31 October 2026.
+## Open the project
 
-## Try it
+1. Open `runtime/TwoOaks/TwoOaks.esproj` in Lens Studio 5.23.2. Let the assets and included Snap packages import and TypeScript finish compiling. On first open, allow background texture processing to finish before recording. Lens Studio can restart Preview as a processed texture becomes available.
+2. In the Preview panel, select **No Simulation** for mouse control and **Interactive** as the input. In Preview settings, set **Device Type Override → SPECS** before resuming. Use **SPECS 27** separately for native hand simulation. Resume Preview after the import finishes. Double-click the Preview tab to expand it. The laboratory contains a movable specimen station. Left-click a leaf surface or use **Inspect hair**; left-drag rotates individual models.
+3. **Continue** advances one chapter. **Back** revisits the previous chapter. **Evidence** opens a source card. **Return** resumes at the same point.
+4. In **One letter in GL1**, choose **Atoms**, then **Codon** and **Pair**. Use **Show variant** to compare the same position.
+5. In **Predict the next leaf**, choose **Trichomes** or **No trichomes**, then **Add working GL1**. Watch the new leaf develop alongside the untreated control.
+6. **Play film** starts the 170-second guided route. **Pause**, **Resume**, **Explore** and **Reset** control playback. The film and independent lesson use the same native objects and biological states.
 
-1. Open `runtime/TwoOaks/TwoOaks.esproj` in Lens Studio **5.23.2**. Allow official package imports and compilation to complete. A private signing key is excluded; create your own development key if prompted. Internet access may be needed for package resolution; the lesson itself uses bundled data.
-2. Start **Interactive Preview** with the SPECS 27 target. The scene is a movable virtual station; a physical table and camera recognition are not required.
-3. Open **Menu** and choose any chapter: **1 Leaf**, **2 Trichome**, **3 Cell**, **4 GL1**, **5 DNA**, **6 Compare**.
-4. Use **Inspect**, pinch/grab and drag to examine a specimen. **− / +** adjust its scale; **Reset view** restores its pose; **Done** returns to the chapter. **Evidence** opens credited source material and returns to the same view when closed.
-5. **Play film** starts the 2:24 guided lesson. **Pause / Resume** retains the playhead. **Explore** lets you inspect the paused scene; **Resume** returns to the saved film view. Only **Restart film** deliberately starts again.
-6. **Menu → Lab on/off** switches the 3D laboratory backdrop. The laboratory is off at fresh scene initialization to leave the user's room visible. Enable it for the cinematic presentation. **Move station** moves the complete station; **Recenter** brings it back in front of you.
-7. For the active exercise, enable **Task** in Menu. Compare the leaves, identify the changed coding base, predict the new leaf, and use **Add GL1**. The original mutant stays as a control.
+For the wide view used in the demonstration, expand Preview, use **No Simulation** with **Device Type Override → SPECS** in the Preview settings, then select **Interactive** and **16:9**. The laboratory and specimens are rendered by the project in both views.
 
-Use mouse interaction in Preview or SIK's emulated hands. Left and right synthetic input have been checked separately; this is not validation of physical glasses or real simultaneous hand tracking.
+If your installation requests a development key, create your own in Lens Studio. Scientific data and images are bundled. The project can be explored in Preview without physical glasses. Separate English, Russian, Spanish and French subtitle tracks accompany the demonstration.
 
-## The investigation
+See `devpost/DEVPOST_ENTRY.en.md` for the pitch, `devpost/SCIENCE.md` for evidence and attribution, and the project’s `THIRD_PARTY_NOTICES.md` for inherited components and licenses.
 
-Leaf → one branched trichome → cell and nucleus → chromosome 3 / GL1 / exon 3 / codon → an independent atomic DNA example → prediction and comparison.
 
-In R32, the same exterior opens into a schematic cutaway. The nucleus enlarges from its marked location while the context cell stays visible. Nuclear envelope, chromatin and nucleolus appear with sequential explanations, followed by a gradual transition to the chromosome map.
+## Controls revision, 6 November 2026
 
-## Evidence and boundaries
+Left-click selects; left-drag rotates individual models in Preview. The lower row adds Home, Reset view and Settings. Predict before adding GL1. See devpost/CONTROLS_20261106.md for current checks and recording details.
 
-- The reference-based GL1 exercise uses `TGG [TCT] TTG → TGG [TTT] TTG`: coding C→T, Ser92Phe. Gene-oriented base 1251 corresponds to CDS base 275. GL1 lies on the negative genomic strand; plus-strand reference projection is a derived coordinate, not a newly sequenced mutant.
-- Leaves, trichomes, the cell interior and nuclear organization are authored reconstructions. The SEM images are independent published observations, not images of the selected virtual site. Their original scale bars and credits are retained.
-- The five chromosome rods show chromosome types, not the number of copies in the depicted trichome nucleus.
-- **1BNA is a separate B-DNA teaching example**, not an atomic model of GL1 or its mutation. Original deposited atom coordinates are retained; solvent and undeclared hydrogen coordinates are not added.
-- The restored new leaf is a conceptual complementation exercise. It does not turn a mature mutant leaf hairy or establish a measured growth rate.
 
-See `devpost/QA.md`, `devpost/design-brief.md`, `devpost/workflow-receipt.md`, `devpost/SOURCES_AND_LIMITS.md` and the project's `THIRD_PARTY_NOTICES.md`.
+## Current navigation revision, 6 November 2026
 
-## Reuse and tooling
+Use **Chapters**, centered in the bottom utility row, to jump directly to any of the nine sections. The current section is marked. **Return** closes the menu without losing your place; prediction, result and DNA selection survive chapter changes. **Try again** repeats just the experiment. **Home** or final **Replay** starts fresh. Use the LEFT mouse button in Preview to select and drag a model; right-drag controls the editor camera.
 
-Built with Lens Studio, CLAD/MCP, SIK and UIKit. The official Devpost planning template and guidance were consulted; the owner supplied the design direction. The full scripted interview was not performed, and no interview transcript or organizer approval is claimed.
-
-Pre-existing owner GENESIS room geometry and the EcoGenesis 1BNA dataset are disclosed. This contest's native integration, botanical investigation, controls, cutaway and presentation were developed during the submission period. Official dependencies, scientific data, microscopy and fonts retain their respective terms. The original synthesized score contains no sampled artist recording.
-
-This is a locally prepared submission candidate. Public repository/video URLs and final Devpost submission are recorded separately after publication. No device performance or learning-outcome claim is made.
+The current video is `two-oaks-navigation-1080p.mp4`; the separate Russian review copy is `two-oaks-navigation-ru-1080p.mp4`. Current subtitle files in captions/ start with `two-oaks-navigation`. See devpost/NAVIGATION_20261106.md and devpost/QA.md for the controls and verified limits. Prior captions and release notes are retained as history.

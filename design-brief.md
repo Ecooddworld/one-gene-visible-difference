@@ -1,65 +1,23 @@
-# Design brief: One Gene, A Visible Difference
+# A DNA letter and a visible trait
 
-Implemented R32 brief, updated 31 October 2026. Adapted from the official Devpost template. The owner's recorded choices were Arabidopsis genetic variation, realistic botanical references, a 3D laboratory, a leaf-to-cell-to-DNA path, clearer nucleus context and minimal controls. Positioning/timing are implementation decisions, not invented interview answers. The original oak brief is retained locally in the revision history.
+## Learner and goal
 
-## The one spatial moment
-Notice a visible leaf difference, follow one selected trichome through its cell and nucleus, and use a specific GL1 example to predict a separate new leaf. Keep the original specimen or control visible when changing scale or testing the explanation.
+A newcomer to genetics can recognize a leaf hair before reading a codon. After one investigation, they should be able to trace a selected change from DNA through messenger RNA to a protein building block, then use the control and a new leaf to explain how a genetic intervention tests a cause.
 
-## Why it belongs on glasses
-Uses placement in the world. Models, linked enlargements and independent evidence occupy a shared movable station. The benefit over a flat visualization is a design hypothesis, not a measured learning result. It does not recognize plants or free the user's hands.
+## Spatial sequence
 
-## Product or overlay
-The virtual investigation is the product. It requires no real-object recognition, live biological measurement, microphone or cloud answer. Bundled reference data and disclosed reconstructions provide the lesson.
+Start with matched surfaces at the same scale. Select a trichome and compare its branches and common base with published microscopy. Inspect an open cell with wall relief taken from a cotyledon confocal stack. Locate its vacuole and peripheral nucleus, then examine an independent DAPI nuclear section. Inspect the same GL1 fragment as letters, atoms, a codon and one aligned base pair. Watch RNA leave the template and meet an Arabidopsis ribosome. Compare the serine hydroxyl with the phenylalanine ring. Locate Ser92 on the reference GL1 atomic surface and compare two continuous epidermal patches. Predict, add a working copy and inspect a new leaf.
 
-## Where things live
-The initial lesson is about 1.3 m in front of the initial camera. A single parent holds the lesson and controls. The Move station handle translates that parent; release distance is clamped to 80–170 cm. Recenter places it 110 cm ahead and 3 cm below the current camera. These are implementation dimensions in centimetres.
+The laboratory remains visible around each object. Reference and variant states use persistent names, labels and colour. All instructions can be read in English without sound. Teachers can pause, revisit evidence and repeat the same experiment with a different prediction.
 
-Microscopy sits beside its relevant model. Other leaves leave the isolated-cell scene. During nucleus magnification, a smaller context cell remains at the side with a connector. Menu and modal evidence temporarily prioritize their controls. The laboratory is optional and starts off for AR use.
+## The spatial moment
 
-## Hands and input
-SIK pinch buttons and specimen grabs; mouse interaction in Interactive Preview. Inspect/Done, scale −/+, Reset view and Evidence are contextual. One transport row gives Pause/Resume, Explore and Menu. All six chapters remain accessible. The station handle translates the entire lesson. Synthetic left/right input is checked; simultaneous physical two-hand feel is unproven.
+With both leaves visible at the same distance, pinch one small patch and follow its branched cell into the microscopy comparison. Later, keep the atomic pair in the same place and compare the two DNA variants. The specimens sit in a movable, world-anchored laboratory station. The lesson uses a virtual plant and independent source imagery. It requires no recognition of a physical leaf.
 
-## When things show
-Show wall/vacuole, then cytoplasm/nucleus, then enlarged nucleus/envelope, then chromatin/nucleolus. Delay labels until the movement settles. Keep one selected site visible across the scale change. Preserve the saved film view when opening evidence or exploring; Resume restores it.
+## Placement and controls
 
-## Done criteria
-1. All six chapters can be opened directly from Menu.
-2. Pause, Explore and Resume preserve film time and the saved view.
-3. Leaf/cell/nucleus inspection and source expansion return without pose jumps.
-4. The cell entry uses the same exterior and the enlarged nucleus retains visible context.
-5. Lab on/off and Move station/Recenter support an optional backdrop and a coherent spatial station.
-6. The gene exercise and new-leaf comparison retain the scientific distinctions stated in Sources.
+The teaching object occupies the centre of the station. The chapter name sits above it. A short caption and five or fewer controls sit below it. The caption, title and specimen labels each have a local high-contrast backing. The room stays visible around the object. A small ring marks the current pinch target. One hand can operate the lesson. The independent route waits for a deliberate action before moving to its next chapter.
 
-Evidence and gaps are listed in QA.md. Current native checks combine direct Preview interaction, runtime state checks and local regression checks. Historical oak LEAF scenarios are not claimed as coverage of the Arabidopsis lesson.
+## Acceptance
 
-## Out of scope and risks
-No plant identification, patient use, live microscopy, measured tissue reconstruction, measured growth rate, molecular simulation of GL1, or proven learning outcome. The dense molecular view and display contrast still need physical SPECS testing. Public submission and third-party terms require the owner's final review.
-
-## Build notes for CLAD
-- Build for SPECS so it runs and can be demonstrated in Lens Studio's preview. No SPECS device is available.
-- Use Spectacles Interaction Kit (SIK) and UI Kit for all interactions, so they work with the mouse in Interactive Preview and with LEAF.
-- Build any stand-in exactly as described above, and keep it obvious in the scene.
-- Use real-world scale in centimeters. Keep content inside the user's view during the main task.
-- The display is additive: black renders as transparent. Don't rely on black or very dark content to be seen; keep text light and readable from where the user stands.
-- Get the basic flow working first, then add detail.
-- Write LEAF scenarios for each done criterion, run them in preview, and report which pass. Say which criteria have no test.
-- Don't record, identify, or follow people.
-
-## After the build: judge it
-This part is for you, after CLAD finishes.
-
-1. **Does it work?** Ask your agent which LEAF tests passed and which done criteria have no test.
-2. **Walk around it.** Open the preview in Interactive Preview. Use WASD to move, Q and E to go down and up, and right-drag (or hold Shift) to look around. Clicking acts as a pinch. Stand where a user would and look at the task.
-3. **Ask the three questions.**
-   - Does it use what I'm looking at?
-   - Does it put something in my space, where it belongs?
-   - Does it free my hands or let me keep my eyes up?
-   - Would it be just as good on a phone? If so, what would make it need the glasses?
-4. **Check comfort.**
-   - Everything I need is in view while I do the task. Nothing sits at the edges, behind me, or stuck to my face.
-   - Every control is within reach of someone standing there.
-   - Text reads easily from where I stand. No dark UI disappearing.
-   - Things show when needed and get out of the way.
-5. **Label what you know.** Write "logic proven" next to anything the tests and preview show working, and "feel unproven" next to anything only real glasses could tell you (comfort over time, real hand tracking, real recognition).
-6. **Fix with design notes, not code.** Tell your agent what to change in design terms, for example: "Move the step card 15 cm lower and next to the pan. Make the Next button twice as big. Re-run the tests." If a fix takes under a minute, like nudging a panel, do it yourself in the scene.
-7. **Submit.** Record a video under 3 minutes of your Lens in the preview, public on YouTube. Make your repo public with your Lens Studio project and this `devpost/` folder. Details are on the hackathon site: https://learn-specs.devpost.com/resources
+The selectable region and controls work in Lens Studio Preview. The original early variant remains smooth. Only a new experimental leaf develops trichomes after the working copy is added. Camera framing holds still during comparison. A public repository and YouTube link will be checked for access when the owner authorizes release.

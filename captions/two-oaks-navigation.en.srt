@@ -1,0 +1,109 @@
+1
+00:00:00,000 --> 00:00:07,033
+Both leaves are Arabidopsis. Only one has
+hairs.
+
+2
+00:00:07,033 --> 00:00:15,133
+Follow one hair to find out why.
+
+3
+00:00:15,133 --> 00:00:24,100
+This branched hair is a trichome.
+
+4
+00:00:24,100 --> 00:00:33,100
+The entire hair is one cell of the leaf
+surface.
+
+5
+00:00:33,100 --> 00:00:39,100
+Researchers compared hairy and smooth plants.
+
+6
+00:00:39,100 --> 00:00:46,067
+They read the GL1 gene and tested its
+function.
+
+7
+00:00:46,067 --> 00:00:51,133
+The vacuole fills much of this leaf cell.
+
+8
+00:00:51,133 --> 00:00:56,100
+The nucleus lies beside the vacuole.
+
+9
+00:00:56,100 --> 00:01:04,067
+The nucleus holds DNA. GL1 is part of that
+DNA.
+
+10
+00:01:04,067 --> 00:01:11,067
+DNA has four letters. Find the middle C in
+TCT.
+
+11
+00:01:11,067 --> 00:01:18,067
+These atoms form the same short piece of GL1
+DNA.
+
+12
+00:01:18,067 --> 00:01:23,033
+The reference plant has C at this position.
+
+13
+00:01:23,033 --> 00:01:28,033
+The variant has T instead. TCT becomes TTT.
+
+14
+00:01:28,033 --> 00:01:37,033
+The cell makes an RNA copy of this DNA
+message.
+
+15
+00:01:37,033 --> 00:01:42,033
+A ribosome reads RNA in threes called codons.
+
+16
+00:01:42,033 --> 00:01:48,067
+These codons select amino acids, the building
+blocks of proteins.
+
+17
+00:01:48,067 --> 00:01:57,033
+UCU gives serine. UUU gives phenylalanine
+instead.
+
+18
+00:01:57,033 --> 00:02:07,000
+GL1 helps turn on the genes a leaf cell needs
+to form a hair.
+
+19
+00:02:07,000 --> 00:02:18,000
+The altered GL1 protein activates these genes
+poorly.
+
+20
+00:02:18,000 --> 00:02:25,967
+Predict the surface of the next leaf.
+
+21
+00:02:25,967 --> 00:02:30,000
+Add working GL1 to test your prediction.
+
+22
+00:02:30,000 --> 00:02:33,967
+Compare the new leaf with the untreated
+control.
+
+23
+00:02:33,967 --> 00:02:39,000
+Only the new leaf with working GL1 grows
+hairs.
+
+24
+00:02:39,000 --> 00:02:50,000
+One DNA letter changed the GL1 protein. The
+early leaf grew without hairs.

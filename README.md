@@ -1,48 +1,29 @@
-# One Gene, A Visible Difference
+# One Letter, a Different Leaf
 
-**A leaf. A tiny hair. A question about DNA.**
+A spatial genetics investigation for SPECS: follow one change in GL1 from a DNA letter to the surface of a developing Arabidopsis leaf.
 
-Why does one Arabidopsis leaf have tiny branched hairs while another has a smooth blade? This interactive AR investigation follows that visible difference across scales — from a leaf to a single cell, its nucleus and a documented change in the gene GL1.
+**[Watch the 2:50 demonstration](https://youtu.be/njbU3csrYvc) · [Download the complete Lens Studio project](https://github.com/Ecooddworld/one-gene-visible-difference/releases/download/r35-navigation-20261106/TwoOaks-navigation-source.zip) · [Release and checksums](https://github.com/Ecooddworld/one-gene-visible-difference/releases/tag/r35-navigation-20261106)**
 
-The aim is to make a genetic explanation something you can explore: inspect a specimen, compare it with scientific evidence, then use what you have learned to predict a new leaf.
+## Open the working project
 
-[Watch the 2:24 demonstration](https://youtu.be/NYXsgEACqb8) · [Download the interactive project](https://github.com/Ecooddworld/one-gene-visible-difference/releases/tag/r32)
+Download **TwoOaks-navigation-source.zip** from the linked release, extract it, then open `runtime/TwoOaks/TwoOaks.esproj` in Lens Studio 5.23.2. This is the complete tested project, including native scenes, code, packages, textures, meshes, microscopy, captions, source credits and licenses. The repository's Git tree provides review documents and the principal interaction scripts; GitHub's automatic “Source code” ZIP is not the complete Lens. Use the explicitly named project download above.
 
-Both are currently private review copies.
+Allow the first asset import and TypeScript compilation to finish. In Preview use **Interactive**, **No Simulation**, and **Device Type Override → SPECS**. Expand Preview by double-clicking its tab. Left-click selects and left-drag rotates a specimen; right-drag moves the editor camera. Native simulated hands can be tested separately with SPECS 27.
 
-## Follow the question
+## Try the investigation
 
-1. **Notice the difference.** Compare two leaves and find the tiny hairs, called trichomes, on the surface of one blade.
-2. **Explore one cell.** Follow a selected trichome into an enlarged view. Compare its branching surface with published microscopy, then open an illustrative cutaway and locate the nucleus.
-3. **Connect the scales.** Move from chromosome 3 to GL1, an exon and a changed DNA base. Follow the explanation of how the published GL1-S92F variant affects a regulator involved in trichome development.
-4. **Make a prediction.** Consider what restoring GL1 function could mean for a separate new leaf. Compare the outcome while the original mutant leaf remains visible as a control.
+1. Compare the leaf surfaces and inspect a branched hair: one trichome is a single cell.
+2. Follow microscopy, cell and nucleus to the same 18-base-pair GL1 fragment. Switch between letters, atoms, codon and pair, then compare C–G with T–A.
+3. Follow TCT → UCU → serine and TTT → UUU → phenylalanine to position 92 of GL1.
+4. Predict the next leaf, add a working copy of GL1, and compare new growth with the untreated control. Try both predictions.
+5. Use **Chapters** in the bottom row to jump between nine sections. Prediction, DNA selection and result persist. **Try again** repeats the experiment; **Home** starts fresh; **Reset view** restores specimen orientation. **Settings** controls laboratory visibility and station placement.
 
-A separate molecular chapter lets you inspect an experimentally determined B-DNA structure. It introduces the physical form of DNA; it is not an atomic model of GL1.
+The guided film and independent Explore route use the same native objects and lesson state. No narration or music is needed. Separate EN, RU, ES and FR subtitle files are in `captions/` and the complete project archive.
 
-## Explore at your own pace
+## Evidence and validation
 
-The experience is organised around a movable spatial workbench. A specimen, its enlarged details and the relevant evidence stay connected as the lesson changes scale.
+Microscopy depicts independent specimens. DNA geometry is a sequence-based structural model, the GL1 domain is a prediction, and the complementation experiment is a teaching model. The in-scene Evidence cards distinguish these sources and limits.
 
-Open any of the six chapters, pause the guided film, rotate or enlarge a model, inspect microscopy, then resume from the saved point. The 3D laboratory can be switched on for an enclosed setting or off for an AR presentation.
+Verified on 6 November 2026: all 81 ordered chapter transitions, both predictions, working-copy gating, replay, retained experiment state, evidence pages, model rotation, station dragging, laboratory settings and film pause/resume. Ten lesson-state tests passed. An independent copy with no pre-existing cache opened and completed the lesson on the same Mac; all 553 native input files match the release. Physical SPECS were not tested.
 
-This is one focused lesson, and a prototype for a broader approach to science learning: start with an observable difference, examine evidence at several scales and test an explanation. A wider course or measured learning benefit is not claimed.
-
-## Science you can trace
-
-The lesson draws on published Arabidopsis genetics, independent microscopy and a deposited DNA structure. The plant models and cell interiors are educational reconstructions. The prediction exercise is conceptual, not a new biological experiment; GL1 works within a developmental network rather than determining the trait alone.
-
-Read the [scientific sources and limits](SOURCES_AND_LIMITS.md), [design brief](design-brief.md) and [asset credits](THIRD_PARTY_NOTICES.md). These distinguish measured source data, published observations and authored illustrations.
-
-## Open the interactive project
-
-Download the full project ZIP attached to the [interactive project release](https://github.com/Ecooddworld/one-gene-visible-difference/releases/tag/r32), extract it into a new folder and open `runtime/TwoOaks/TwoOaks.esproj` in Lens Studio 5.23.2, targeting SPECS 27. See the [setup and controls guide](NATIVE_README.md).
-
-The complete Lens project and assets are in that attached ZIP. This repository's file tree contains review documentation; GitHub's automatic “Source code” archives do not contain the complete Lens project.
-
-## Development status
-
-Built for SPECS and demonstrated in Lens Studio Preview. Physical glasses, on-device performance and comfort have not been tested. The [verification notes](QA.md), [video provenance](VIDEO_PROVENANCE.json), [workflow receipt](workflow-receipt.md) and [checksums](SHA256SUMS) retain the implementation detail for reviewers.
-
-Previous GENESIS/EcoGenesis assets and AI-assisted leaf colour artwork are disclosed in the source notes. Third-party licences remain applicable; no blanket open-source licence has been assigned to the original work.
-
-Prepared for Learn AR with SPECS. The [entry draft](DEVPOST_ENTRY.en.md) and [submission requirements](REQUIREMENTS.md) are included for review. The project has not been submitted, and access remains private.
+See [setup](NATIVE_README.md), [scientific evidence](SOURCES_AND_LIMITS.md), [credits and licenses](THIRD_PARTY_NOTICES.md), [verification](QA.md), [planning/build record](workflow-receipt.md) and [entry description](DEVPOST_ENTRY.en.md). Prior R32 remains available as a historical release. The current native source snapshot is `dff429a10df1d1e4ac246af2d519ce5332634708`.

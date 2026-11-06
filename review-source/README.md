@@ -1,0 +1,1 @@
+These exact principal scripts are mirrored from the tested complete project for browser review. Download the release project ZIP to obtain the full native scene, dependencies, geometry and assets. Do not open this partial review directory as a Lens project.

@@ -4,9 +4,15 @@ Checked 2026-10-25. This source package is prepared privately; no public rights 
 
 Microscopy and R23 provenance amended 2026-10-27 from the project manifests below. Earlier oak-specific descriptions retain their historical scope; they do not exclude the subsequently added Arabidopsis reference images.
 
+## Active R35 lesson — 4 November 2026
+
+R35 displays sequence-specific GL1 duplexes constructed with wDSSR. The microscope panels retain the credits identified below. The epidermal relief uses the SurfCut PI-stained cotyledon measurements of Erguvan & Verger (CC BY 4.0). The internal compartments are anatomically illustrated. The enlarged nucleus uses an independent DAPI stack from Gaudin & Andrey. The envelope uses representative pores from EMDB EMD-54657 at modeled positions. The ribosome uses PDB 9H3G. The reference GL1 domain uses AlphaFold DB P27900. Amino-acid geometry comes from the wwPDB Chemical Component Dictionary. The source identifiers, licenses and transformations are in the repository's `science/arabidopsis-imaging-r35/SOURCES.md` and `devpost/SCIENCE.md`.
+
+The historical notices below retain provenance for prior prototypes and shared assets.
+
 ## Arabidopsis update — 26 October 2026
 
-The current episode reuses the original Genesis 1BNA v1.3 coordinate dataset. PDB archive data are CC0; cite Drew et al. (1981), doi:10.1073/pnas.78.4.2179, and RCSB PDB 1BNA. 1BNA is a molecular teaching example, not GL1 or Arabidopsis DNA. GL1 and chromosome annotations are from NCBI TAIR10. The paired leaves use generated artwork as texture and newly constructed geometry; they are not specimen scans. See the bundled SOURCES_AND_LIMITS.md for source coordinates, hashes, morphology caveats and reuse disclosure. The browser renderer uses Three.js r160 under MIT, with its notice preserved.
+The 26 October prototype reused the original Genesis 1BNA v1.3 coordinate dataset. PDB archive data are CC0; cite Drew et al. (1981), doi:10.1073/pnas.78.4.2179, and RCSB PDB 1BNA. 1BNA is a molecular teaching example, not GL1 or Arabidopsis DNA. GL1 and chromosome annotations are from NCBI TAIR10. The paired leaves use generated artwork as texture and newly constructed geometry; they are not specimen scans. See the bundled SOURCES_AND_LIMITS.md for source coordinates, hashes, morphology caveats and reuse disclosure. The browser renderer uses Three.js r160 under MIT, with its notice preserved.
 
 ## Newly authored work
 

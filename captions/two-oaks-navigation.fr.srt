@@ -1,0 +1,115 @@
+1
+00:00:00,000 --> 00:00:07,033
+Ces feuilles sont de la même espèce. Une seule
+porte des poils.
+
+2
+00:00:07,033 --> 00:00:15,133
+Suivons un poil pour comprendre cette
+différence.
+
+3
+00:00:15,133 --> 00:00:24,100
+Ce poil ramifié est un trichome.
+
+4
+00:00:24,100 --> 00:00:33,100
+Le poil entier est une cellule de la surface
+de la feuille.
+
+5
+00:00:33,100 --> 00:00:39,100
+Les chercheurs ont comparé des plantes avec et
+sans poils.
+
+6
+00:00:39,100 --> 00:00:46,067
+Ils ont lu la séquence de GL1 et testé sa
+fonction.
+
+7
+00:00:46,067 --> 00:00:51,133
+La vacuole occupe une grande partie de cette
+cellule.
+
+8
+00:00:51,133 --> 00:00:56,100
+Le noyau se trouve à côté de la vacuole.
+
+9
+00:00:56,100 --> 00:01:04,067
+Le noyau contient l’ADN. GL1 en est un
+segment.
+
+10
+00:01:04,067 --> 00:01:11,067
+L’ADN a quatre lettres. Repérez le C au milieu
+de TCT.
+
+11
+00:01:11,067 --> 00:01:18,067
+Ces atomes forment ce même segment d’ADN de
+GL1.
+
+12
+00:01:18,067 --> 00:01:23,033
+La plante de référence porte un C à cette
+position.
+
+13
+00:01:23,033 --> 00:01:28,033
+Le variant porte un T à la place. TCT devient
+TTT.
+
+14
+00:01:28,033 --> 00:01:37,033
+La cellule copie ce message de l’ADN en ARN.
+
+15
+00:01:37,033 --> 00:01:42,033
+Le ribosome lit l’ARN par triplets appelés
+codons.
+
+16
+00:01:42,033 --> 00:01:48,067
+Ces codons désignent des acides aminés, les
+unités des protéines.
+
+17
+00:01:48,067 --> 00:01:57,033
+UCU indique la sérine. UUU indique la
+phénylalanine.
+
+18
+00:01:57,033 --> 00:02:07,000
+GL1 aide à activer les gènes nécessaires pour
+former un poil.
+
+19
+00:02:07,000 --> 00:02:18,000
+La protéine GL1 modifiée active moins bien ces
+gènes.
+
+20
+00:02:18,000 --> 00:02:25,967
+La prochaine feuille aura-t-elle des poils ?
+
+21
+00:02:25,967 --> 00:02:30,000
+Ajoutez une copie fonctionnelle de GL1 pour
+tester votre prédiction.
+
+22
+00:02:30,000 --> 00:02:33,967
+Comparez la nouvelle feuille au témoin non
+traité.
+
+23
+00:02:33,967 --> 00:02:39,000
+Seule la nouvelle feuille avec GL1 fonctionnel
+porte des poils.
+
+24
+00:02:39,000 --> 00:02:50,000
+Une lettre d’ADN a modifié la protéine GL1. La
+jeune feuille a poussé sans poils.

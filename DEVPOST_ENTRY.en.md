@@ -1,33 +1,34 @@
-# One Gene, A Visible Difference
+# One Letter, a Different Leaf
 
-**Tagline:** Follow an Arabidopsis leaf hair from visible trait to GL1, inspect the evidence, and predict a new leaf.
+Explore a genetic experiment on the surface of an Arabidopsis leaf.
 
 ## Inspiration
-DNA is often taught apart from the organism it helps explain. We wanted to start with a difference a learner can notice: a leaf blade with branched hairs beside a smooth one. The question becomes why the difference exists and what evidence would support an explanation.
+
+A student can memorize “DNA → RNA → protein” and still have no way to tell whether a gene caused a visible change. Our starting point is something you can see. One early leaf bears branched hairs. Another has a smooth surface. The learner follows that difference through a specific gene and makes a prediction that the model can test.
 
 ## What it does
-This SPECS Lens is a movable spatial workbench for students and educators. Inspect a leaf, enlarge one trichome, compare it with credited microscopy, and open the same branched cell. Follow its nucleus into chromosome 3, GL1, the third exon and a coding-base change: TCT to TTT, Ser92 to Phe. Then inspect an independent experimental B-DNA structure and predict the phenotype of a new leaf after adding functional GL1. The unchanged mutant remains beside it as a control.
 
-The six chapters are available directly from Menu. A 144-second guided presentation can be paused, explored and resumed from its saved point. The 3D laboratory is optional: turn it off to retain a compact station in your own space. Pinch/grab inspection, scale controls, source images and a movable station make the models objects to examine rather than pages to scroll.
+At a movable laboratory station, select a patch of leaf and inspect a single branched cell, a trichome. Compare its shape with credited electron microscopy from a separate specimen. An open cell follows the measured relief of an Arabidopsis epidermis. A leader locates the vacuole, then the nucleus pressed against it. A section through an independently imaged nucleus reveals where DNA is concentrated.
 
-## Why spatial
-The specimen, its enlargement and the observation used to interpret it coexist around one station. During the nucleus enlargement, the original cell stays visible and connected to the selected location. During the prediction, the original mutant remains as a separate control. These spatial relationships are the design's purpose; camera recognition and hands-free use are not claimed.
+Switch the same 18-base-pair DNA fragment from letters to atoms. Inspect position five with the camera held still, first as C–G and then as T–A. On the coding strand, TCT becomes TTT. The corresponding messenger-RNA codon changes from UCU to UUU. The protein receives phenylalanine in place of serine at position 92.
+
+GL1 regulates genes involved in trichome development. Predict the surface of the next leaf, add a functional copy of GL1 and compare it with the untreated variant. The new leaf develops trichomes. The original smooth leaf stays in view as the control.
 
 ## How we built it
-We used the Devpost Learn planning template and AR guidance, then CLAD, Lens Studio and the Lens Studio MCP with an AI coding agent. Native TypeScript connects SIK/UIKit controls, GLB specimens, a 3D room, reference-based gene diagrams and coordinate-derived molecular geometry. The owner iteratively reviewed the native results. The complete prescribed planning interview was not performed; our workflow receipt records that limitation.
 
-## Challenges and what we learned
-Visual detail did not automatically make the lesson clear. Early versions lost the selected cell during zooms, overlapped specimens and restarted the film after exploration. We introduced explicit chapter state, saved film views, separate specimen regions, progressive labels and a context cell that remains beside the enlarged nucleus. We also kept microscopy distinct from illustration: a surface SEM cannot establish the interior or natural colour of a virtual cell.
+The SPECS Lens runs in Lens Studio Preview. TypeScript connects the native specimens, published microscopy, cell illustration and atomic meshes to a common lesson state. SIK pinch interactions and UIKit controls let learners inspect the same position, compare outcomes and repeat an experiment. Short, backed English captions carry the lesson without narration. A ring shows which specimen or control the learner is pinching. The independent Explore route and the guided 170-second route share the same biological states.
 
-## What is demonstrated
-The native R32 project runs in Lens Studio Preview. Checks cover chapter navigation, pause/resume, source return, inspection and left/right synthetic hand input. The new cell and nucleus sequence has been captured in Preview. Our submission video is a 2:24 edit of native Preview captures; it does not represent device footage or measured device performance.
+The atomic fragment was built from the GL1 reference sequence using wDSSR. Both strands, the selected position and the covalent graph were checked before importing the models. The complete fragment, codon and individual pair share a consistent frame across variants. The annotation identifies the geometry as a structural model.
 
-## Prior work and scientific scope
-The owner's pre-existing GENESIS laboratory geometry and EcoGenesis 1BNA coordinate dataset were reused; the prior applications were not imported. Native assembly, lesson logic, botanical reconstruction and this presentation were developed for the contest. Scientific records, microscopy, official packages and fonts retain their original credits and terms.
+The nuclear exhibit retains 68 confocal sections of DNA fluorescence from an independent Arabidopsis nucleus. The translation exhibit uses the deposited Arabidopsis 80S structure (PDB 9H3G). The regulation exhibit shows a space-filling reference GL1 domain with Ser92 highlighted. The two developing surfaces share the same intact epidermis. A trichome grows on one while the control stays smooth.
 
-GL1-S92F is a published example; the displayed reference coordinate is a derived projection. 1BNA is a separate B-DNA example, not GL1. Cell geometry, nuclear organization, colours and the new-leaf complementation are educational reconstructions. Physical glasses, photorealistic accuracy and learning outcomes have not been tested.
+## What a judge can try
 
-## Next
-Test comfort and interaction on physical SPECS, then reuse the evidence-to-prediction lesson pattern for another well-supported biological example. The current submission contains one complete investigation, not a finished general education platform.
+Select a surface, advance to the GL1 fragment, switch to atoms and compare both variants. At the experiment, predict “No trichomes” and add the working copy. Check the new leaf against the untreated control, then use Try again for the other prediction. Use Chapters to revisit any of the nine sections; the selected DNA variant, prediction and result remain saved. The Evidence cards explain what was observed experimentally and what the lesson models.
 
-**Built with:** Lens Studio 5.23.2, TypeScript, CLAD, Lens Studio MCP, Spectacles Interaction Kit, Spectacles UIKit, Blender, Python.
+## Sources and reuse
+
+The microscopy panels retain their original labels, scale bars and credits. The room uses earlier GENESIS geometry. The project incorporates official Snap packages, Inter and earlier botanical and scientific visualization work. The project notices give sources, licenses and scope. The Devpost Learn planning materials informed the brief, and CLAD and Lens Studio MCP supported native build and verification. The project record states exactly which planning steps were completed.
+
+Validation is in Lens Studio Preview. The source instructions document how to reproduce the walkthrough.
+

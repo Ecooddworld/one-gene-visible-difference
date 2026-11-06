@@ -1,0 +1,111 @@
+1
+00:00:00,000 --> 00:00:07,033
+Ambas hojas son de Arabidopsis. Solo una tiene
+pelos.
+
+2
+00:00:07,033 --> 00:00:15,133
+Sigamos un pelo para averiguar por qué.
+
+3
+00:00:15,133 --> 00:00:24,100
+Este pelo ramificado se llama tricoma.
+
+4
+00:00:24,100 --> 00:00:33,100
+Todo el pelo es una célula de la superficie de
+la hoja.
+
+5
+00:00:33,100 --> 00:00:39,100
+Se compararon plantas con pelos y sin ellos.
+
+6
+00:00:39,100 --> 00:00:46,067
+Leyeron la secuencia de GL1 y probaron su
+función.
+
+7
+00:00:46,067 --> 00:00:51,133
+La vacuola ocupa gran parte de esta célula.
+
+8
+00:00:51,133 --> 00:00:56,100
+El núcleo está junto a la vacuola.
+
+9
+00:00:56,100 --> 00:01:04,067
+El núcleo contiene ADN. GL1 forma parte de ese
+ADN.
+
+10
+00:01:04,067 --> 00:01:11,067
+El ADN tiene cuatro letras. Localiza la C
+central en TCT.
+
+11
+00:01:11,067 --> 00:01:18,067
+Estos átomos forman ese mismo tramo de ADN de
+GL1.
+
+12
+00:01:18,067 --> 00:01:23,033
+La planta de referencia tiene C en esta
+posición.
+
+13
+00:01:23,033 --> 00:01:28,033
+La variante tiene T en su lugar. TCT cambia a
+TTT.
+
+14
+00:01:28,033 --> 00:01:37,033
+La célula copia este mensaje del ADN en ARN.
+
+15
+00:01:37,033 --> 00:01:42,033
+El ribosoma lee el ARN en tripletes llamados
+codones.
+
+16
+00:01:42,033 --> 00:01:48,067
+Estos codones indican aminoácidos, las piezas
+de las proteínas.
+
+17
+00:01:48,067 --> 00:01:57,033
+UCU indica serina. UUU indica fenilalanina.
+
+18
+00:01:57,033 --> 00:02:07,000
+GL1 ayuda a activar los genes necesarios para
+formar un pelo.
+
+19
+00:02:07,000 --> 00:02:18,000
+La proteína GL1 alterada activa peor esos
+genes.
+
+20
+00:02:18,000 --> 00:02:25,967
+¿Tendrá pelos la próxima hoja?
+
+21
+00:02:25,967 --> 00:02:30,000
+Añade una copia funcional de GL1 para probar
+tu predicción.
+
+22
+00:02:30,000 --> 00:02:33,967
+Compara la hoja nueva con el control sin
+tratar.
+
+23
+00:02:33,967 --> 00:02:39,000
+Solo la hoja nueva con GL1 funcional forma
+pelos.
+
+24
+00:02:39,000 --> 00:02:50,000
+Una letra del ADN cambió la proteína GL1. La
+hoja joven creció sin pelos.

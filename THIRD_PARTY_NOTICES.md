@@ -1,6 +1,16 @@
 # Provenance and third-party notices
 
-Checked 2026-10-25. This source package is prepared privately; no public rights grant or submission is implied.
+## Current publication status — 8 November 2026
+
+The project is publicly available as the **[R35 navigation release, 6 November 2026](https://github.com/Ecooddworld/one-gene-visible-difference/releases/tag/r35-navigation-20261106)**, and the Devpost entry was verified as SUBMITTED (5/5) on 8 November. [SUBMISSION_VERSION.md](SUBMISSION_VERSION.md) identifies the exact archive and video. Documentation changes do not replace the native archive.
+
+The original notices below were prepared from 25 October onward and retain the history of earlier prototypes. Their dated “private”, “pending” and “owner approval” wording records those earlier checkpoints, not the current publication status. Public availability does not relicense third-party assets or establish a blanket open-source license. Component notices and applicable vendor terms continue to govern reuse. Paths under `science/`, `runtime/` and `devpost/licenses/` refer to the complete project archive unless they are present in this review tree.
+
+The submitted YouTube video later received **Spirit of Fire — Jesse Gallagher** from the YouTube Audio Library. That track was added in YouTube Studio and is not an audio asset in the Lens source archive. The procedural audio described below belongs to earlier project assets.
+
+### Historical preparation note — 25 October 2026
+
+This source package was prepared privately at that checkpoint; no public rights grant or submission was implied by the original notice.
 
 Microscopy and R23 provenance amended 2026-10-27 from the project manifests below. Earlier oak-specific descriptions retain their historical scope; they do not exclude the subsequently added Arabidopsis reference images.
 

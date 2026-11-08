@@ -4,6 +4,16 @@ A spatial genetics investigation for SPECS: follow one change in GL1 from a DNA 
 
 **[Watch the 2:50 demonstration](https://youtu.be/njbU3csrYvc) · [Download the complete Lens Studio project](https://github.com/Ecooddworld/one-gene-visible-difference/releases/download/r35-navigation-20261106/TwoOaks-navigation-source.zip) · [Release and checksums](https://github.com/Ecooddworld/one-gene-visible-difference/releases/tag/r35-navigation-20261106)**
 
+## Learning goal and author
+
+Created by **Andrei Mikhailov**, a developer at ODD Studio with a background in plant genetics and practical PCR laboratory experience. The goal is to help people understand biology through observation, questions and model experiments, even without access to a physical laboratory.
+
+This module is for learners encountering genetics for the first time and educators explaining how DNA relates to a visible trait. Learners inspect specimens, follow the evidence, predict an outcome and compare new growth with a control. No microscope, reagents or living specimens are required to explore it in Lens Studio Preview on a computer. It supports scientific reasoning; practical laboratory skills still require hands-on training.
+
+## Submitted version
+
+The [Devpost entry](https://devpost.com/software/one-letter-a-different-leaf) was verified as **SUBMITTED (5/5)** on 8 November 2026. The submitted version is **R35 navigation, 6 November 2026**, with the video and complete project linked above. This documentation update does not replace that native build or introduce features from later local work. See [SUBMISSION_VERSION.md](SUBMISSION_VERSION.md) for the exact release, source snapshot and archive checksum.
+
 ## Open the working project
 
 Download **TwoOaks-navigation-source.zip** from the linked release, extract it, then open `runtime/TwoOaks/TwoOaks.esproj` in Lens Studio 5.23.2. This is the complete tested project, including native scenes, code, packages, textures, meshes, microscopy, captions, source credits and licenses. The repository's Git tree provides review documents and the principal interaction scripts; GitHub's automatic “Source code” ZIP is not the complete Lens. Use the explicitly named project download above.
@@ -18,7 +28,7 @@ Allow the first asset import and TypeScript compilation to finish. In Preview us
 4. Predict the next leaf, add a working copy of GL1, and compare new growth with the untreated control. Try both predictions.
 5. Use **Chapters** in the bottom row to jump between nine sections. Prediction, DNA selection and result persist. **Try again** repeats the experiment; **Home** starts fresh; **Reset view** restores specimen orientation. **Settings** controls laboratory visibility and station placement.
 
-The guided film and independent Explore route use the same native objects and lesson state. No narration or music is needed. Separate EN, RU, ES and FR subtitle files are in `captions/` and the complete project archive.
+The guided film and independent Explore route use the same native objects and lesson state. English in-scene text carries the explanation. The YouTube demonstration includes a quiet music track and separate EN, RU, ES and FR subtitles; the source archive also contains the caption files.
 
 ## Evidence and validation
 
